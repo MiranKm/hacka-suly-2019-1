@@ -2,96 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="mq_600_plus.css" media="(min-width:600px)">
-    <link rel="stylesheet" href="mq_900_plus.css" media="(min-width:900px)">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="base.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+  <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+  <title>E-Services</title>
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to Online forms</h1>
-    </header>
+  <header>
+    <h1>Welcome to Online forms</h1>
+  </header>
 
 
-    <div class="container">
-        <img src="images/id.png" alt="id">
-        <div>
-            <h1>Sign up</h1>
-            <input class="g-input" type="email" placeholder="ئیمێڵ">
-            <input class="g-input" placeholder="ژمارەی مۆبایل" type="text">
-            <input class="g-input" placeholder="ژمارەی نهێنی" type="password">
-            <input class="g-input" placeholder="ژمارەی نهێنی" type="password">
-            <br>
-            <h1>Section #1: Identity</h1>
-            <input class="g-input" placeholder="First Name" type="text">
-            <input class="g-input" placeholder="Father's Name" type="text">
-            <input class="g-input" placeholder="Grandfather's Name" type="text">
-            <br>
-            <input class="g-input" placeholder="Mother's Name" type="text">
-            <input class="g-input" placeholder="Mother's father Name" type="text">
-            <br>
-            <input class="g-input" placeholder="ID's number" type="text">
-            <input class="g-input" placeholder="ID's serial" type="text">
-            <div class="row-container">
-                <input class="btn-date" value="Select Issued Date" type="button">
-                <input class="btn-date" value="Expire Date" type="button">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <img src="images/id.png" alt="id">
-        <div>
-            <h1>Sign up</h1>
-            <div>
-                <span>*</span>
-                <input class="g-input" type="email" placeholder="Email...">
-            </div>
-            <div>
-                <span>*</span>
-                <input class="g-input" placeholder="Password" type="password">
+  <div class="container">
+    <img src="images/id.png" alt="id">
+    <div>
+      <h1>ناو تۆماركردن</h1>
+      <input class="g-input" type="email" placeholder="ئیمێڵ">
+      <input class="g-input" placeholder="ژمارەی مۆبایل" type="text">
+      <input class="g-input" placeholder="ژمارەی نهێنی" type="password">
+      <input class="g-input" placeholder="ژمارەی نهێنی" type="password">
+      <br>
+      <br>
+      <h1>بەشی یەكەم: كارتی نیشتیمانی</h1>
+      <input class="g-input" placeholder="ناو" type="text">
+      <input class="g-input" placeholder="ناوی باوك" type="text">
+      <input class="g-input" placeholder="ناوی باپیرە" type="text">
+      <input class="g-input" placeholder="نازناو" type="text">
+      <br>
+      <input class="g-input" placeholder="ناوی دایك" type="text">
+      <input class="g-input" placeholder="ناوی باوكی دایك" type="text">
+      <div>
 
-            </div>
-            <div>
-                <span>*</span>
-                <input class="g-input" placeholder="Password" type="password">
+        <select name="ڕەگەز" id="gender">
+          <option value="نێر">نێر</option>
+          <option value="مێ">مێ</option>
+        </select>
+      </div>
 
-            </div>
-            <br>
-            <h1>Section #1: Identity</h1>
-            <input class="g-input" placeholder="First Name" type="text">
-            <input class="g-input" placeholder="Father's Name" type="text">
-            <input class="g-input" placeholder="Grandfather's Name" type="text">
-            <br>
-            <input class="g-input" placeholder="Mother's Name" type="text">
-            <input class="g-input" placeholder="Mother's father Name" type="text">
-            <br>
-            <input class="g-input" placeholder="ID's number" type="text">
-            <input class="g-input" placeholder="ID's serial" type="text">
-            <div class="row-container">
-                <input class="btn-date" id="datepicker" value="Select Issued Date" type="button">
-                <input class="btn-date" value="Expire Date" type="button">
-            </div>
-        </div>
+      <input class="g-input" placeholder="ژمارەی كارتی نیشتیمانی" type="text">
+      <input class="g-input" placeholder="ژمارەی ژێر وێنەی كارتی نیشتیمانی" type="text">
+      <br>
+      <input class="g-input" placeholder="لایەنی دەرچوون" type="text">
+      <br>
+
+      <div class="row-container">
+        <input type="button" class="btn-date" value="رۆژی دەرچووم">
+        <input type="button" class="btn-date" value="رۆژی بەسەر چوون">
+      </div>
+
+      <input class="g-input" placeholder="شوێنی لەدایك بوون" type="text">
+      <input class="g-input" placeholder="ژمارەی خێزان" type="text">
+
+      <div>
+        <button class="btn-signin">ناوت تۆمار بكە</button>
+      </div>
     </div>
 
-    <footer>
+  </div>
 
-        <div>
-            <p>Kurdistan Regional Government - Iraq,
-                The Presidency of the Council of Ministers</p>
-        </div>
-        <div>
-            <p>حکومەتی هەرێمی کوردستان - عێراق،
-                سەرۆکایەتی ئەنجومەنی وەزیران</p>
-        </div>
-    </footer>
 
-    </head>
+  <footer>
+
+    <div>
+      <p>Kurdistan Regional Government - Iraq,
+        The Presidency of the Council of Ministers</p>
+    </div>
+    <div>
+      <p>حکومەتی هەرێمی کوردستان - عێراق،
+        سەرۆکایەتی ئەنجومەنی وەزیران</p>
+    </div>
+  </footer>
+
 
 </body>
 
