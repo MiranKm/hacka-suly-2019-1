@@ -1,0 +1,17 @@
+
+.g-input, .btn-date {
+    width: 70%;
+}
+
+.row-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.row-container:first-child {
+    width: 50%;
+}
+
+.row-container:last-child {
+    width: 50%;
+}
