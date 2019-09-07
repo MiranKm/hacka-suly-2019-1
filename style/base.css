@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url('fonts/NotoKufiArabic-Regular.woff2');
+    src: url('../fonts/NotoKufiArabic-Regular.woff2');
     /* IE9 Compat Modes */
     src: url('webfont.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('fonts/NotoKufiArabic-Regular.woff2') format('woff2'),
+        url('../fonts/NotoKufiArabic-Regular.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('fonts/NotoKufiArabic-Regular.ttf') format('woff'),
+        url('../fonts/NotoKufiArabic-Regular.ttf') format('woff'),
         /* Pretty Modern Browsers */
-        url('fonts/NotoKufiArabic-Regular.ttf') format('truetype'),
+        url('../fonts/NotoKufiArabic-Regular.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('webfont.svg#svgFontName') format('svg');
+        url('../webfont.svg#svgFontName') format('svg');
     /* Legacy iOS */
 }
 
