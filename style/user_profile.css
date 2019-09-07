@@ -41,14 +41,18 @@ header {
 header>div {
     margin: 1rem;
     text-align: center;
+    
 
 }
 
 header>div>a {
     padding: 8px;
-    background: #fff;
     border-radius: 4px;
     text-decoration: none;
+    background: white;
+}
+header>div>a:hover {
+    background: #C8A04B;
 }
 
 header>div>h3 {
@@ -64,6 +68,7 @@ header>div>h3 {
     justify-content: space-around;
     height: 10px;
     color: #01689B;
+    line-height: 3;
 }
 
 .sign-out a {
@@ -73,9 +78,6 @@ header>div>h3 {
 
 }
 
-.sign-out a:hover {
-    background: #C8A04B;
-}
 
 .fas {
     margin: 4px;
