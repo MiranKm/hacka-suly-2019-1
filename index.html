@@ -23,7 +23,10 @@
 
 
   <div class="container">
-    <img src="images/id.png" alt="id">
+    <div class="row-container">
+      <img src="images/id.png" alt="id">
+    </div>
+
     <div>
       <h1>ناو تۆماركردن</h1>
       <input class="g-input" type="email" placeholder="ئیمێڵ">
@@ -33,40 +36,100 @@
       <br>
       <br>
       <h1>بەشی یەكەم: كارتی نیشتیمانی</h1>
-      <input class="g-input" placeholder="ناو" type="text">
-      <input class="g-input" placeholder="ناوی باوك" type="text">
-      <input class="g-input" placeholder="ناوی باپیرە" type="text">
-      <input class="g-input" placeholder="نازناو" type="text">
-      <br>
-      <input class="g-input" placeholder="ناوی دایك" type="text">
-      <input class="g-input" placeholder="ناوی باوكی دایك" type="text">
       <div>
 
-        <select name="ڕەگەز" id="gender">
-          <option value="نێر">نێر</option>
-          <option value="مێ">مێ</option>
-        </select>
+        <input class="g-input" placeholder="ناو" type="text">
+        <input class="g-input" placeholder="ناوی باوك" type="text">
+        <input class="g-input" placeholder="ناوی باپیرە" type="text">
+        <input class="g-input" placeholder="نازناو" type="text">
+        <br>
+        <input class="g-input" placeholder="ناوی دایك" type="text">
+        <input class="g-input" placeholder="ناوی باوكی دایك" type="text">
+        <div>
+          <div>
+
+            <select name="ڕەگەز" id="gender">
+              <option value="نێر">نێر</option>
+              <option value="مێ">مێ</option>
+            </select>
+          </div>
+
+          <input class="g-input" placeholder="ژمارەی كارتی نیشتیمانی" type="text">
+          <input class="g-input" placeholder="ژمارەی ژێر وێنەی كارتی نیشتیمانی" type="text">
+          <br>
+          <input class="g-input" placeholder="لایەنی دەرچوون" type="text">
+          <br>
+
+          <div class="row-container">
+            <input type="button" class="btn-date" value="رۆژی دەرچووم">
+            <input type="button" class="btn-date" value="رۆژی بەسەر چوون">
+          </div>
+
+          <input class="g-input" placeholder="شوێنی لەدایك بوون" type="text">
+          <input class="g-input" placeholder="ژمارەی خێزان" type="text">
+
+          <br>
+          <h1>کارتی زانیاری</h1>
+          <input class="g-input" placeholder="نوسینگەی زانیاری" type="text">
+          <input class="g-input" placeholder="ناوی سەرۆک خێزان" type="text">
+          <input class="g-input" placeholder="ناونیشانی نیشتەجێبوون" type="text">
+          <br>
+          <input class="g-input" placeholder="ژمارەی فۆڕم " type="text">
+          <input class="g-input" placeholder="هێما" type="text">
+          <br>
+          <input class="g-input" placeholder="زنجیرە" type="text">
+          <input class="g-input" placeholder="رۆژی ڕێکخستنی فۆڕم" type="text">
+          <input class="g-input" placeholder="ناو و پلەی ڕێکخستنی فۆڕم" type="text">
+          <div class="row-container">
+            <input class="btn-date" value="بەرواری دەرچوون" type="button">
+            <input class="btn-date" id="datepicker" value="بەرواری بەسەرچوون" type="button">
+          </div>
+
+          <br>
+          <h1>ناسنامە</h1>
+          <input class="g-input" placeholder="ژمارەی هەوییە" type="text">
+          <input class="g-input" placeholder="ناوی سیانی" type="text">
+          <input class="g-input" placeholder="ناوی دایک" type="text">
+          <br>
+          <select class="option" id="gender">
+            <option value="male">نێر</option>
+            <option value="female">مێ</option>
+          </select>
+          <br>
+          <input class="g-input" placeholder="دین" type="text">
+          <br>
+          <input class="g-input" placeholder="بەرواری لەدایک بوون" type="text">
+          <input class="g-input" placeholder="شوێنی لەدایک بوون" type="text">
+          <div class="row-container">
+            <input class="btn-date" value="بەرواری دەرچوون" type="button">
+            <input class="btn-date" id="datepicker2" value="بەرواری بەسەرچوون" type="button">
+          </div>
+
+          <br>
+          <h1>ڕەگەز نامە</h1>
+          <input class="g-input" placeholder="ژمارەی محافەزە" type="text">
+          <input class="g-input" placeholder="ناوی سیانی" type="text">
+          <input class="g-input" placeholder="مادەی" type="text">
+          <br>
+          <input class="g-input" placeholder="شوێنی لەدایکبوون" type="text">
+          <input class="g-input" placeholder="دین" type="text">
+          <br>
+          <input class="g-input" placeholder="ناوی تەواوی باوک" type="text">
+          <input class="g-input" placeholder="ناوی تەواوی دایک" type="text">
+          <div class="row-container">
+            <input class="btn-date" value="بەرواری دەرچوون" type="button">
+            <input class="btn-date" id="datepicker3" value="بەرواری بەسەرچوون" type="button">
+          </div>
+          <div>
+            <button class="btn-forms"><a style="text-decoration: none;" href="forms_list.html">لیستی فۆرمەكان</a></button>
+            <button class="btn-signin"><a style="text-decoration: none; color:white;" href="user_profile.html">ناوت
+                تۆمار
+                بكە</a></button>
+          </div>
+        </div>
       </div>
 
-      <input class="g-input" placeholder="ژمارەی كارتی نیشتیمانی" type="text">
-      <input class="g-input" placeholder="ژمارەی ژێر وێنەی كارتی نیشتیمانی" type="text">
-      <br>
-      <input class="g-input" placeholder="لایەنی دەرچوون" type="text">
-      <br>
-
-      <div class="row-container">
-        <input type="button" class="btn-date" value="رۆژی دەرچووم">
-        <input type="button" class="btn-date" value="رۆژی بەسەر چوون">
-      </div>
-
-      <input class="g-input" placeholder="شوێنی لەدایك بوون" type="text">
-      <input class="g-input" placeholder="ژمارەی خێزان" type="text">
-
-      <div>
-        <button class="btn-signin">ناوت تۆمار بكە</button>
-      </div>
     </div>
-
   </div>
 
 
